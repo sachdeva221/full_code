@@ -7,7 +7,7 @@ class First_page:
     def __init__(self, Driver):
         self.Driver = Driver
 
-    url = "https://stage-admin.myintellispine.com"
+    url = "https://translate.google.co.in/"
     email = (By.NAME, "email")
     password = (By.NAME, "password")
     btn = (By.CSS_SELECTOR, 'button[class="btn btn-primary w-full"]')

@@ -34,4 +34,3 @@ class Test_runcode(Base):
     @pytest.fixture(params=data_send_homepage.list_info)
     def get_data(self, request):
         return request.param
-

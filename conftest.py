@@ -26,8 +26,8 @@ def invoke_browser(request):
         print("please enter the right name")
     Driver.implicitly_wait(15)
     request.cls.Driver = Driver
-    # yield
-    # Driver.close()
+    yield
+    Driver.close()
 
 
 
